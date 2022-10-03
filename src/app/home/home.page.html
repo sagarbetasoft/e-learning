@@ -1,0 +1,66 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header [translucent]="true">
+    <div class="logo">
+      <ion-toolbar>
+        <ion-thumbnail slot="start">
+          <img alt="logo-book" src="../../assets/logo.png" />
+        </ion-thumbnail>
+        <ion-label color="ebook">E-learning Book</ion-label>
+        <ion-buttons slot="end">
+          <!-- <ion-menu-button auto-hide="false"></ion-menu-button> -->
+          <ion-icon size="large" name="settings-outline"></ion-icon>
+        </ion-buttons>
+      </ion-toolbar>
+    </div>
+  </ion-header>
+  <div class="categories">
+    <div class="categ-see-more">
+      <h2>Categories</h2>
+      <p>See more</p>
+    </div>
+    <div class="ionchip-btn">
+      <ion-slides>
+        <ion-chip>Art</ion-chip>
+        <ion-chip>Business</ion-chip>
+        <ion-chip>Education</ion-chip>
+        <ion-chip>Drama</ion-chip>
+      </ion-slides>
+    </div>
+  </div>
+  <div class="new-releases">
+    <div class="nr-cat-seemore">
+      <h2>New Releases</h2>
+      <p>See more</p>
+    </div>
+    <div class="sliderss">
+      <ion-slides>
+        <ion-img src="../../assets/imgslide.png"></ion-img>
+        <ion-img src="../../assets/imgslide.png"></ion-img>
+      </ion-slides>
+    </div>
+  </div>
+  <div class="bestseller">
+    <div class="bestseller-seemore">
+      <h2>Best Seller</h2>
+      <p>See more</p>
+    </div>
+    <div class="sliderss-card">
+      <ion-slides>
+        <ion-card color="cardbackground">
+          <div class="innercard-content">
+            <div class="inner-cardimage">
+              <ion-img slot="start" src="../../assets/bestseller.png"></ion-img>
+            </div>
+            <div class="innercard-text">
+              <h2>The Martian</h2>
+              <p>Andy Weir</p>
+              <ion-img slot="start" src="../../assets/Rating.png"></ion-img>
+              <span>1,090+ Listeners</span>
+            </div>
+          </div>
+        </ion-card>
+      </ion-slides>
+    </div>
+
+  </div>
+</ion-content>

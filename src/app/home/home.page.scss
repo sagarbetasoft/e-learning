@@ -1,0 +1,179 @@
+ion-content {
+  ion-header {
+    .logo {
+      ion-toolbar {
+        --border-width: 0 0 0px;
+        --background: var(--ion-color-primary-contrast);
+
+        ion-label {
+          font-size: 12px;
+          font-weight: 600;
+          margin-left: 6px;
+          line-height: 18px;
+
+        }
+      }
+    }
+  }
+
+  .categories {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .categ-see-more {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-around;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 13px;
+
+      h2 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--ion-color-warning-contrast);
+        margin: 0px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        color: var(--ion-color-ebook);
+        margin: 0px;
+      }
+    }
+
+    .ionchip-btn {
+      ion-chip {
+        border-radius: 12px;
+        padding: 0px 16px;
+      }
+    }
+  }
+
+  .new-releases {
+    .nr-cat-seemore {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-around;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      h2 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--ion-color-warning-contrast);
+        margin: 0px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        color: var(--ion-color-ebook);
+        margin: 0px;
+      }
+    }
+
+    .sliderss {
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      ion-img {
+        min-width: 200px;
+        height: 300px;
+        padding-right: 10px;
+      }
+
+
+    }
+  }
+
+  .bestseller {
+    .bestseller-seemore {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-around;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      h2 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--ion-color-warning-contrast);
+        margin: 0px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        color: var(--ion-color-ebook);
+        margin: 0px;
+      }
+    }
+  }
+
+  .sliderss-card {
+    ion-slides {
+      ion-card {
+        padding: 10px 12px;
+        width: 100%;
+        margin: 4px;
+
+
+        .innercard-content {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: space-between;
+          justify-content: space-between;
+          align-items: center;
+
+          .innercard-text {
+            h2 {
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              color: var(--ion-color-warning-contrast);
+              margin: 0px 0px 5px 0px;
+            }
+
+            p {
+
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 21px;
+              color: var(--ion-color-dark-tint);
+              margin: 0px;
+              padding: 0px 0px 10px 0px;
+            }
+
+
+            ion-img {
+              padding: 10px 0px;
+            }
+
+            span {
+              font-size: 12px;
+              color: var(--ion-color-dark-tint);
+              line-height: 18px;
+              font-weight: 400;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+
+
+}
